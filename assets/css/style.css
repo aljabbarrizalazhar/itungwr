@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  background: url(../image/bg.jpg) repeat center center fixed;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+main {
+  position: relative;
+}
+.tv {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fffa;
+  backdrop-filter: blur(10px) saturate(90%) contrast(180%);
+  -webkit-backdrop-filter: blur(10px) saturate(90%) contrast(180%);
+  color: black;
+  padding: 1.4em;
+  margin: 1.2em;
+  border-radius: 1em;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.judul {
+  font-size: 1.1em;
+}
+.form {
+  text-align: left;
+  font-size: 12px;
+  padding: 1em;
+  margin: 1em;
+  font-weight: 600;
+}
+.keluaran {
+  font-size: 1.1em;
+}
+.btn {
+  font-weight: 900;
+  font-size: 12px;
+  color: #000000aa;
+  background-color: #0066cc;
+  padding: 10px 30px;
+  border: solid #0066cc 2px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 50px;
+  transition: 266ms;
+  transform: translateY(0);
+  text-transform: uppercase;
+}
+.btn:hover {
+  transition: 266ms;
+  padding: 10px 30px;
+  transform: translateY(-0px);
+  background-color: #fff;
+  color: #0066cc;
+  border: solid 2px #0066cc;
+}
+.isian {
+  padding: 2px;
+  font-size: 12px;
+  border-width: 2px;
+  border-color: #170745;
+  background-color: #ffffff;
+  color: #000000;
+  border-style: solid;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(66, 66, 66, 0.75);
+  text-shadow: -50px 0px 5px rgba(66, 66, 66, 0.48);
+}
+@media screen and (min-width: 580px) {
+  .tv {
+    max-width: 480px;
+    margin: 0 auto;
+    margin-top: 1em;
+    padding: 1.4em;
+  }
+}
